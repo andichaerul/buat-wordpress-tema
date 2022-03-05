@@ -1,0 +1,9 @@
+:root {
+    --yellow-color: #ffc107;
+    --button-color: #3287c0;
+}
+
+#masthead {
+    padding: 0 !important;
+    background-color: var(--yellow-color);
+}

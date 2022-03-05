@@ -1,0 +1,10 @@
+{
+    "name": "andichaerul/wordpress",
+    "authors": [
+        {
+            "name": "Andi Chaerul",
+            "email": "andichaerul85@gmail.com"
+        }
+    ],
+    "require": {}
+}

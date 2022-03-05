@@ -1,0 +1,115 @@
+# Translation of Themes - Blossom Health Coach in Indonesian
+# This file is distributed under the same license as the Themes - Blossom Health Coach package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-23 09:04:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Blossom Health Coach\n"
+
+#. Description of the theme
+msgid "Blossom Health Coach is a free child theme of Blossom Coach WordPress theme. This theme can be a perfect choice of health coaches, consultants, medical practitioners, mentors, speakers, and therapists. It is a multipurpose theme and can be used to create websites for consulting agencies, affiliate bloggers, content marketers, and psychologists. This theme helps you create an effective and stunning landing page to sell your services. You can create a fully functional and professional website yourself without writing a single line of code with this theme. The theme features a fully optimized design and strategically placed 3 newsletter section where you can add subscription forms to build your email list. Also, the optimally placed call to action buttons to convert the visitors into customers. Blossom Health Coach is a fully responsive and speed optimized theme to provide a smooth user experience to your visitors. Furthermore, it is Ultra SEO optimized theme. Besides the SEO optimized code, it comes with Schema.org Markup ready to help your website rank higher in the search engine results. The theme features various sections on the homepage such as floating header newsletter section, Image/Video/Slider banner section, Service section, About section, Call to Action section, Testimonial section, Client section, Blog section, A simple Call to Action section, Contact section, and Newsletter section. Blossom Health Coach has ample space for widgets and comes with 21 useful widgets to keep your user engagement on the website. The theme is translation ready and even supports RTL scripts. Furthermore, you can create an online shop and sell your products and services as it is fully compatible with the WooCommerce plugin. In addition to all the features, Blossom Coach features extensive documentation to guide you create a website from scratch without any prior technical knowledge. It is backed up by a quick and responsive support team and is updated on a regular basis. Check theme details at https://blossomthemes.com/downloads/blossom-health-coach-free-wordpress-theme/, demo at https://blossomthemes.com/theme-demo/?theme=blossom-health-coach, read the documentation at https://docs.blossomthemes.com/docs/blossom-health-coach/, and get support at https://blossomthemes.com/support-ticket/."
+msgstr "Blossom Health Coach adalah tema turunan dari tema WordPress Blossom Coach. Tema ini dapat menjadi pilihan tepat untuk coach kesehatan, konsultan, praktisi medis, mentor, pembicara, dan terapis. Tema ini multiguna dan dapat digunakan untuk membuat situs web untuk agensi konsultasi, blogger affiliate, content marketer, dan psychologists. Tema ini membantu Anda membuat landing page yang efektif dan menarik untuk menjual layanan Anda. Anda dapat membuat situs web yang fungsional penuh dan profesional tanpa harus menulis sebaris kode dengan tema ini. Tema memiliki fitur desain yang dioptimalkan sepenuhnya dan terdapat 3 bagian newsletter yang ditempatkan strategis di mana Anda dapat menambahkan form subscription untuk membangun daftar e-mail. Serta, tombol call to action yang ditempatkan secara optimal untuk mengonversi pengunjung menjadi pelanggan. Blossom Health Coach responsif dan dioptimalkan kecepatannya untuk menyajikan user experience yang bagus untuk pengunjung Anda. Lebih dari itu, SEO tema ini sangat dioptimalkan. Selain kode yang dioptimalkan, tema ini kompatibel dengan Schema.org untuk membantu situs web Anda dirangking ke posisi yang lebih tinggi di mesin pencari. Tema ini memiliki beragam bagian pada halaman beranda seperti bagian header newsletter melayang, bagian banner Gambar/Video/Slider, bagian Servis, bagian Tentang Kami, bagian Call to Action, bagian Testimonial, bagian Klien, bagian Blog, bagian Call to Action yang sederhana, bagian Kontak, dan bagian Newsletter. Blossom Health Coach memiliki ruang yang luas untuk widget dan dilengkapi dengan 21 widget bermanfaat untuk menjaga keterlibatan pengguna Anda di situs web. Tema siap diterjemahkan dan mendukung script RTL. Lebih dari itu, Anda dapat membuat shop online dan menjual produk dan layanan Anda karena kompatibel sepenuhnya dengan plugin WooCommerce. Sebagai tambahan untuk semua fitur, Blossom Coach dilengkapi dengan dokumentasi yang membantu anda membuat situs web dari awal tanpa memiliki pengetahuan teknis sebelumnya. Tema ini didukung oleh tim layanan bantuan yang cepat dan responsif dan selalu diperbarui secara berkala. Cek rincian tema di https://blossomthemes.com/downloads/blossom-health-coach-free-wordpress-theme/, demo di https://blossomthemes.com/theme-demo/?theme=blossom-health-coach, baca dokumentasi di https://docs.blossomthemes.com/docs/blossom-health-coach/, dan dapatkan bantuan di https://blossomthemes.com/support-ticket/."
+
+#. Theme Name of the theme
+msgid "Blossom Health Coach"
+msgstr "Blossom Health Coach"
+
+#: functions.php:278
+msgid "Mobile"
+msgstr "Ponsel"
+
+#: functions.php:486
+msgid " Blossom Health Coach | Developed By "
+msgstr " Blossom Health Coach | Diciptakan Oleh"
+
+#: functions.php:488
+msgid "https://wordpress.org/"
+msgstr "https://id.wordpress.org/"
+
+#: functions.php:488
+msgid " Powered by %s"
+msgstr " Ditenagai oleh %s"
+
+#: functions.php:395
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:394
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:393
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:174
+msgid "Secondary font of the site."
+msgstr "Font sekunder situs."
+
+#: functions.php:173
+msgid "Secondary Font"
+msgstr "Font Sekunder"
+
+#: functions.php:152
+msgid "Primary font of the site."
+msgstr "Font utama situs."
+
+#: functions.php:151
+msgid "Primary Font"
+msgstr "Font Utama"
+
+#: functions.php:131
+msgid "Typography"
+msgstr "Tipografi"
+
+#: functions.php:116
+msgid "Change the font size of your site title."
+msgstr "Ubah ukuran font judul situs Anda."
+
+#: functions.php:115
+msgid "Site Title Font Size"
+msgstr "Ukuran Font Judul Situs"
+
+#: functions.php:93
+msgid "Site title and tagline font."
+msgstr "Font judul situs dan slogan."
+
+#: functions.php:92
+msgid "Site Title Font"
+msgstr "Font Judul Situs"
+
+#: functions.php:63
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Tautan Dokumentasi: %1$sKlik di sini.%2$s"
+
+#: functions.php:61
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Tautan Demo: %1$sKlik di sini.%2$s"
+
+#: functions.php:48
+msgid "Demo & Documentation"
+msgstr "Demo & Dokumentasi"
+
+#. Author URI of the theme
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: functions.php:487
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+msgid "https://blossomthemes.com/downloads/blossom-health-coach-free-wordpress-theme/"
+msgstr "https://blossomthemes.com/downloads/blossom-health-coach-free-wordpress-theme/"

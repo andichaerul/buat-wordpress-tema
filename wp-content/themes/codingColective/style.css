@@ -1,0 +1,131 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+    --background-color-yellow: #ffc107;
+    --text-color-1: white;
+    --body-background-color: #005BAA;
+    ;
+}
+
+a.nav-link {
+    color: var(--text-color-1);
+    font-size: 18px;
+}
+
+nav.navbar.navbar-expand-sm {
+    background-color: var(--background-color-yellow);
+    height: 79px;
+}
+
+body {
+    background: var(--body-background-color);
+    color: var(--text-color-1);
+    font-family: 'Lato', sans-serif;
+}
+
+li.nav-item {
+    margin-right: 1rem;
+}
+
+.cc112 {
+    text-align: right;
+}
+
+.cc112 {
+    font-size: 48px;
+}
+
+.row.cc37 {}
+
+.cc112 {
+    line-height: initial;
+}
+
+.cc52 {
+    font-weight: bold;
+}
+
+.cc87 {
+    text-align: right;
+}
+
+img.cc188 {
+    width: 18rem;
+    margin-top: 2rem;
+}
+
+.cc54 {
+    position: absolute;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: initial;
+    top: 8rem;
+    right: 6rem;
+}
+
+img.cc63 {
+    padding-left: 40%;
+    right: 60rem;
+}
+
+img.cc2406058084 {
+    width: 30rem;
+}
+
+img.cc2568338324 {
+    position: absolute;
+    top: 19rem;
+    width: 17rem;
+    left: 9rem;
+}
+
+img.cc4003000486 {
+    position: absolute;
+    left: 25rem;
+    top: 11rem;
+    width: 29%;
+}
+
+img.cc2766663593 {}
+
+img.cc2766663593 {
+    width: 20rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+nav.navbar.navbar-expand-sm {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.cc1082021360 {
+    overflow: hidden;
+    max-height: 39rem;
+    min-height: 39rem;
+}
+
+img.cc1062774977 {
+    position: absolute;
+    left: 27rem;
+    width: 8rem;
+    top: 22rem;
+}
+
+.cc3612105092 {
+    position: relative;
+    max-height: 18rem;
+    min-height: 18rem;
+    margin-top: -12rem;
+}
+
+img.cc2291668064 {
+    vertical-align: bottom;
+    position: absolute;
+    right: 3rem;
+    bottom: 0;
+}
