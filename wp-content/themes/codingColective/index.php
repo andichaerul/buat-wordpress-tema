@@ -42,38 +42,38 @@
     </nav>
 
     <?php if (str_contains($_SERVER['REQUEST_URI'], 'home')) : ?>
-        <img class="cc63" src="http://localhost:8888/wordpress/images/ccc.svg" />
-
-        <div class="container cc3976524413">
-            <div class="row cc1935295960">
-                <div class="col-md-6">
-                    <div class="cc1101706932">
-                        <img class="cc2406058084" src="http://localhost:8888/wordpress/images/img1.png" />
-                        <img class="cc2568338324" src="http://localhost:8888/wordpress/images/img3.png" />
-                        <img class="cc4003000486" src="http://localhost:8888/wordpress/images/img2.png" />
-                        <img class="cc1062774977" src="http://localhost:8888/wordpress/images/group2.svg" />
-                    </div>
+        <div class="container cc651628470">
+            <div class="row cc3088461771">
+                <div class="col">
+                    <img class="cc2406058084" src="http://localhost:8888/wordpress/images/img1.png" />
+                    <img class="cc2568338324" src="http://localhost:8888/wordpress/images/img3.png" />
+                    <img class="cc4003000486" src="http://localhost:8888/wordpress/images/img2.png" />
+                    <img class="cc1062774977" src="http://localhost:8888/wordpress/images/group2.svg" />
+                </div>
+                <div class="cc112">
+                    <div class="cc52">Singapore's Leading</div>
+                    <div class="cc231">Consumer Electronics,</div>
+                    <div> IT & Furniture Store</div>
                 </div>
             </div>
+            <img class="cc63" src="http://localhost:8888/wordpress/images/ccc.svg" />
 
-            <div class="cc112">
-                <div class="cc52">Singapore's Leading</div>
-                <div class="cc231">Consumer Electronics,</div>
-                <div> IT & Furniture Store</div>
-            </div>
+
+
             <img class="cc188" src="http://localhost:8888/wordpress/images/explore-more.svg">
             <img class="cc2766663593" src="http://localhost:8888/wordpress/images/321.svg" />
             <img class="cc2291668064" src="http://localhost:8888/wordpress/images/vector1.svg" />
-        <?php endif; ?>
+        </div>
+    <?php endif; ?>
 
 
 
-        <?php if (str_contains($_SERVER['REQUEST_URI'], 'sub-home')) : ?>
-            <div class="container cc3976524413"></div>
-        <?php endif; ?>
-        <footer>
+    <?php if (str_contains($_SERVER['REQUEST_URI'], 'sub-home')) : ?>
+        <div class="container cc3976524413"></div>
+    <?php endif; ?>
+    <footer>
 
-        </footer>
+    </footer>
 
 </body>
 

@@ -75,7 +75,7 @@ img.cc63 {
 }
 
 img.cc2406058084 {
-    width: 90%;
+    width: 45%;
     position: absolute;
     left: 0;
     top: 0;
@@ -84,15 +84,15 @@ img.cc2406058084 {
 img.cc2568338324 {
     position: absolute;
     top: 22em;
-    width: 39%;
+    width: 21%;
     left: 8em;
 }
 
 img.cc4003000486 {
     position: absolute;
-    left: 24em;
+    left: 25em;
     top: 10em;
-    width: 30%;
+    width: 15%;
 }
 
 img.cc2766663593 {}
@@ -122,7 +122,7 @@ nav.navbar.navbar-expand-sm {
 img.cc1062774977 {
     position: absolute;
     left: 25em;
-    width: 25%;
+    width: 14%;
     top: 24em;
 }
 
@@ -154,4 +154,11 @@ img.cc2291668064 {
     border-color: white;
     /* border-style: solid; */
     border-width: 1px;
+}
+
+.cc651628470 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 700px;
 }
