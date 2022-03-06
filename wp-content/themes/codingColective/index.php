@@ -42,28 +42,23 @@
     </nav>
 
     <?php if (str_contains($_SERVER['REQUEST_URI'], 'home')) : ?>
-        <div class="container cc651628470">
-            <div class="row cc3088461771">
-                <div class="col">
-                    <img class="cc2406058084" src="http://localhost:8888/wordpress/images/img1.png" />
-                    <img class="cc2568338324" src="http://localhost:8888/wordpress/images/img3.png" />
-                    <img class="cc4003000486" src="http://localhost:8888/wordpress/images/img2.png" />
-                    <img class="cc1062774977" src="http://localhost:8888/wordpress/images/group2.svg" />
-                </div>
-                <div class="cc112">
-                    <div class="cc52">Singapore's Leading</div>
-                    <div class="cc231">Consumer Electronics,</div>
-                    <div> IT & Furniture Store</div>
-                </div>
-            </div>
-            <img class="cc63" src="http://localhost:8888/wordpress/images/ccc.svg" />
-
-
-
-            <img class="cc188" src="http://localhost:8888/wordpress/images/explore-more.svg">
-            <img class="cc2766663593" src="http://localhost:8888/wordpress/images/321.svg" />
-            <img class="cc2291668064" src="http://localhost:8888/wordpress/images/vector1.svg" />
+        <div class="container cc1821494875">
+            <div class="row cc1608512516"></div>
         </div>
+        <!-- <img class="cc63" src="http://localhost:8888/wordpress/images/ccc.svg" /> -->
+        <img class="img1" src="http://localhost:8888/wordpress/images/img1.png" />
+        <img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
+        <img class="img2" src="http://localhost:8888/wordpress/images/img2.png" />
+        <img class="group2" src="http://localhost:8888/wordpress/images/group2.svg" />
+        <!-- <div class="cc112">
+            <div class="cc52">Singapore's Leading</div>
+            <div class="cc231">Consumer Electronics,</div>
+            <div> IT & Furniture Store</div>
+        </div> -->
+        <!-- <img class="cc188" src="http://localhost:8888/wordpress/images/explore-more.svg"> -->
+        <!-- <img class="cc2766663593" src="http://localhost:8888/wordpress/images/321.svg" /> -->
+        <!-- <img class="cc2291668064" src="http://localhost:8888/wordpress/images/vector1.svg" /> -->
+
     <?php endif; ?>
 
 
@@ -78,21 +73,46 @@
 </body>
 
 <script>
-    $(".cc188").click(function(e) {
-        e.preventDefault();
-        $(".cc1082021360").css("max-width", "100%");
-        $(".cc1082021360").css("min-width", "100%");
-        $(".cc1062774977").animate({
-            top: '0rem',
-            left: '63rem'
-        });
+    var current_width = $(window).width();
 
-        $(".cc2568338324").animate({
-            top: '0rem',
-            left: '0rem'
-        });
-
+    $(window).resize(function() {
+        current_width = $(window).width();
+        setPositionImg();
     });
+
+    $(document).ready(function() {
+        setPositionImg();
+    });
+
+    function setPositionImg() {
+        $('.img1').css({
+            'left': $(".container").offset().left,
+            'position': 'absolute',
+            'top': '120px',
+            'width': current_width * 40 / 100
+        });
+        console.log($(".img1").offset().left);
+        $('.img2').css({
+            'width': $('.img1').width() * 40 / 100,
+            'position': 'absolute',
+            'top': $(".img1").offset().top + $('.img1').height() - ($('.img1').height() / 1.7),
+            'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 6)
+        });
+
+        $('.img3').css({
+            'width': $('.img1').width() * 50 / 100,
+            'position': 'absolute',
+            'top': $(".img1").offset().top + $('.img1').height() - ($('.img1').height() / 3),
+            'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 1.6)
+        });
+
+        $('.group2').css({
+            'width': $('.img1').width() * 30 / 100,
+            'position': 'absolute',
+            'top': $(".img1").offset().top + $('.img1').height() - ($('.img1').height() / 5),
+            'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 10)
+        });
+    }
 </script>
 
 </html>
