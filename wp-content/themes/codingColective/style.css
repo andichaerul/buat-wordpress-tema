@@ -7,15 +7,6 @@
     ;
 }
 
-.container.debug {
-    margin-top: 8%;
-}
-
-.col.debug {
-    border-style: solid;
-    border-width: 1px;
-}
-
 a.nav-link {
     color: var(--text-color-1);
     font-size: 18px;
@@ -36,22 +27,11 @@ li.nav-item {
     margin-right: 1rem;
 }
 
-.cc112 {
-    text-align: right;
-}
 
-.cc112 {
-    font-size: 3.77vw;
-}
+
 
 .row.cc37 {}
 
-.cc112 {
-    line-height: initial;
-    position: absolute;
-    top: 8rem;
-    right: 5rem;
-}
 
 .cc52 {
     font-weight: bold;
@@ -307,4 +287,66 @@ button.btn-primary.btnScb {
     height: 39px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+img.img1 {
+    width: 32vw;
+    position: absolute;
+    left: 9.2vw;
+    top: 120px;
+}
+
+img.img2 {
+    width: 14vw;
+    top: 250px;
+    position: absolute;
+    left: 31.3vw;
+}
+
+img.img3 {
+    position: absolute;
+    left: 16vw;
+    top: 389px;
+    width: 18vw;
+}
+
+img.group2 {
+    position: absolute;
+    left: 35vw;
+    top: 437px;
+    width: 13vw;
+}
+
+.cc112 {
+    position: absolute;
+    font-size: 3.5vw;
+    line-height: initial;
+    top: 150px;
+    left: 61vw;
+    text-align: right;
+}
+
+img.explore {
+    top: 341px;
+    position: absolute;
+    width: 24vw;
+    left: 68vw;
+}
+
+img.ccc {
+    position: absolute;
+    left: 50vw;
+}
+
+img.cc321 {
+    position: absolute;
+    left: 0;
+    top: 44vw;
+    width: 21vw;
+}
+
+img.vector1 {
+    position: absolute;
+    top: 50vw;
+    left: 80vw;
 }

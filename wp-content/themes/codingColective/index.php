@@ -9,17 +9,16 @@
     
     
     -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="http://localhost:8888/wordpress/uploads/responsive.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm ">
-        <div class="container">
+        <div class="container connav">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,13 +46,11 @@
     </nav>
 
 
-
-
     <?php if (str_contains($_SERVER['REQUEST_URI'], 'home')) : ?>
         <img class="ccc" src="http://localhost:8888/wordpress/images/ccc.svg" />
         <img class="img1" src="http://localhost:8888/wordpress/images/img1.png" />
-        <img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
         <img class="img2" src="http://localhost:8888/wordpress/images/img2.png" />
+        <img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
         <img class="group2" src="http://localhost:8888/wordpress/images/group2.svg" />
         <div class="cc112">
             <div class="cc52">Singapore's Leading</div>
@@ -61,15 +58,17 @@
             <div> IT & Furniture Store</div>
         </div>
         <img class="explore" src="http://localhost:8888/wordpress/images/explore-more.svg">
-        <img class="321" src="http://localhost:8888/wordpress/images/321.svg" />
+        <img class="cc321" src="http://localhost:8888/wordpress/images/321.svg" />
         <img class="vector1" src="http://localhost:8888/wordpress/images/vector1.svg" />
     <?php endif; ?>
+
+
     <!-- DINE -->
     <?php if (str_contains($_SERVER['REQUEST_URI'], 'dine')) : ?>
         <br><br><br><br>
         <div class="container">
             <div class="row cc609023808">
-                <div class="col-md-6 parentHappyTummy">
+                <div class="col-md-6 parentHappyTummy position-relative">
                     <img class="imgHappyTummy" src="http://localhost:8888/wordpress/images/vector2.svg" />
                     <div class="happyTummy">A happy tummy<br> starts here</div>
                 </div>
@@ -213,169 +212,17 @@
     <?php endif; ?>
 </body>
 
-<?php if (str_contains($_SERVER['REQUEST_URI'], 'home')) : ?>
-    <script>
-        var current_width = $(window).width();
-        var isSubMenu = 0;
-        $('.explore').click(function(e) {
-            isSubMenu = 1;
-            e.preventDefault();
-            $(".cc112").css({
-                'visibility': 'hidden'
-            });
-
-
-            $(".group2").animate({
-                'left': $('.cc112').offset().left + $('.cc112').width() / 1.5,
-                'top': $('.cc112').offset().top
-            });
-
-            $(".img1").animate({
-                // 'left': $('.base_ani2').offset().left,
-                // 'width': $('.base_ani2').width()
-            });
-
-            // $(".img3").animate({
-            //     'left': $('.base_ani1').offset().left,
-            //     'width': $('.base_ani1').width() * 90 / 100,
-            //     'top': $('.img1').offset().top
-            // });
-
-            // $(".img2").animate({
-            //     'left': $('.base_ani3').offset().left,
-            //     'width': $('.base_ani3').width() * 90 / 100,
-            //     'top': $('.img1').offset().top
-            // });
-
-            $(".explore").animate({
-                'left': $('.explore').offset().left + $('.explore').offset().left * 0.4,
-                'top': $('.explore').offset().top + $('.explore').offset().top * 0.4
-            })
-            setTimeout(() => {
-                $(".explore").hide();
-
-            }, 200);
-
-
-
-
-            $('.cc112').fadeOut();
-            $('.ccc').fadeOut();
-            $('.vector1').fadeOut();
-            $('.321').fadeOut();
-        });
-
-        $(window).resize(function() {
-            current_width = $(window).width();
-            if (isSubMenu === 0) {
-                setPositionImg();
-            } else {
-                setPositionImg1();
-            }
-        });
-
-        $(document).ready(function() {
-            setPositionImg();
-        });
-
-        function setPositionImg() {
-            $('.img1').css({
-                'left': $(".container").offset().left,
-                'position': 'absolute',
-                'top': '120px',
-                'width': current_width * 40 / 100
-            });
-
-            console.log($(".img1").offset().left);
-            $('.img2').css({
-                'width': $('.img1').width() * 40 / 100,
-                'position': 'absolute',
-                'top': $(".img1").offset().top + $('.img1').height() - ($('.img1').height() / 1.7),
-                'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 6)
-            });
-
-            $('.img3').css({
-                'width': $('.img1').width() * 50 / 100,
-                'position': 'absolute',
-                'top': $(".img1").offset().top + $('.img1').height() - ($('.img1').height() / 3),
-                'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 1.6)
-            });
-
-            $('.group2').css({
-                'width': $('.img1').width() * 30 / 100,
-                'position': 'absolute',
-                'top': $(".img1").offset().top + $('.img1').height() - ($('.img1').height() / 5),
-                'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 10)
-            });
-
-            $('.ccc').css({
-                'width': $('.img1').width() * 30 / 100,
-                'position': 'absolute',
-                'top': 0,
-                'left': $(".img1").offset().left + $('.img1').width() - ($('.img1').width() / 10)
-            });
-
-            $('.explore').css({
-                'width': $('.cc112').width() * 70 / 100,
-                'position': 'absolute',
-                'top': $(".cc112").offset().top + $('.cc112').height() / 0.8,
-                'left': $(".cc112").offset().left + $('.cc112').width() / 3
-            });
-
-
-            $('.321').css({
-                'width': $('.img1').width() * 50 / 100,
-                'position': 'absolute',
-                'top': $('.img3').height() + $('.img3').offset().top / 1.3,
-                // 'top': $(document).height()
-            });
-
-
-
-            $('.vector1').css({
-                'position': 'absolute',
-                'width': $('.cc112').width() / 2,
-                'left': $('.cc112').offset().left + $('.cc112').width() / 1.8,
-                'top': $('.321').offset().top + $('.321').width() - $('.vector1').height() - 10,
-            });
-        }
-
-        function setPositionImg1() {
-            $('.group2').css({
-                'left': current_width * 0.8
-            });
-        }
-    </script>
-<?php endif; ?>
-
-<?php if (str_contains($_SERVER['REQUEST_URI'], 'dine')) : ?>
-    <script>
-        var current_width = $(window).width();
-        $(document).ready(function() {
-            // $('.imgHappyTummy').css({
-            //     'padding': $('.parentHappyTummy').width() * 0.2,
-            // });
-
-            $('.happyTummy').css({
-                'position': 'absolute',
-                'width': $('.imgHappyTummy').width() + $('.imgHappyTummy').width() * 0.1,
-                'left': $('.imgHappyTummy').offset().left + $('.imgHappyTummy').offset().left * 10 / 100,
-                'top': $('.imgHappyTummy').offset().top - $('.imgHappyTummy').offset().top * 5 / 100,
-                'font-size': '42px',
-                'line-height': 'normal',
-            });
-        });
-        // $(window).resize(function() {
-        //     $('.happyTummy').css({
-        //         'position': 'absolute',
-        //         'width': $('.imgHappyTummy').width() + $('.imgHappyTummy').width() * 0.1,
-        //         'left': $('.imgHappyTummy').offset().left + $('.imgHappyTummy').offset().left * 0.8,
-        //         'top': $('.imgHappyTummy').offset().top + $('.imgHappyTummy').offset().top * 1,
-        //         'font-size': '42px',
-        //         'line-height': 'normal',
-        //     });
-        // })
-    </script>
-<?php endif; ?>
-
 </html>
+
+<script>
+    $(document).ready(function() {
+        $('.explore').click(function(e) {
+            e.preventDefault();
+            $(".cc112").fadeOut();
+            $(".ccc").fadeOut();
+            $(".cc321").fadeOut();
+            $(".vector1").fadeOut();
+            $(".explore").fadeOut();
+        });
+    });
+</script>
