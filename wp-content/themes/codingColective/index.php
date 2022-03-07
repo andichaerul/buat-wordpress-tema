@@ -253,4 +253,9 @@
             $(".explore").fadeOut();
         });
     });
+
+    $('.group2').click(function(e) {
+        e.preventDefault();
+        $(".img1").attr("style", "");
+    });
 </script>
