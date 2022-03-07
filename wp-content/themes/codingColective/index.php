@@ -60,6 +60,8 @@
         <img class="explore" src="http://localhost:8888/wordpress/images/explore-more.svg">
         <img class="cc321" src="http://localhost:8888/wordpress/images/321.svg" />
         <img class="vector1" src="http://localhost:8888/wordpress/images/vector1.svg" />
+        <div class="ourTenant">Our Tenant</div>
+        <div class="ourTenantdesc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </div>
     <?php endif; ?>
 
 
@@ -216,8 +218,34 @@
 
 <script>
     $(document).ready(function() {
+        $('.ourTenant').hide();
+        $('.ourTenantdesc').hide();
         $('.explore').click(function(e) {
             e.preventDefault();
+            $(".group2").animate({
+                top: '8vw',
+                left: '83vw',
+            }, 1000);
+
+            $(".img1").animate({
+                // top: '8vw',
+                left: '38vw',
+            }, 1000);
+
+            $(".img2").animate({
+                top: '12vw',
+                width: '28vw',
+                left: '71vw',
+            }, 1000);
+
+            $(".img3").animate({
+                left: '9vw',
+                top: '12vw',
+                width: '28vw',
+            }, 1000);
+            $('.ourTenant').fadeIn();
+            $('.ourTenantdesc').fadeIn();
+
             $(".cc112").fadeOut();
             $(".ccc").fadeOut();
             $(".cc321").fadeOut();

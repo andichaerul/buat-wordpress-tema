@@ -350,3 +350,21 @@ img.vector1 {
     top: 50vw;
     left: 80vw;
 }
+
+.ourTenant {
+    position: absolute;
+    font-size: 5vw;
+    top: 42vw;
+    left: 42vw;
+}
+
+.ourTenantdesc {
+    font-size: 1.3vw;
+    line-height: initial;
+    text-align: center;
+    position: absolute;
+    top: 51vw;
+    width: 46vw;
+    left: 31vw;
+    height: 11vw;
+}
