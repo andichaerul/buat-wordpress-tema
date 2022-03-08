@@ -184,6 +184,7 @@ input.form-control.searchInput {
     background: #005baa;
     color: white;
     border-radius: 50px;
+    margin-bottom: 4vw;
 }
 
 input.form-control.searchInput::placeholder {
@@ -252,6 +253,7 @@ img.imgList {
 footer {
     background-color: #ffc106;
     padding: 60px;
+    margin-top: 5vw;
 }
 
 .row.parentIconSosmed {
@@ -367,4 +369,84 @@ img.vector1 {
     width: 46vw;
     left: 31vw;
     height: 11vw;
+}
+
+.happyTummy {
+    position: absolute;
+    font-size: 3vw;
+    line-height: initial;
+    top: 14vw;
+    font-weight: bold;
+    left: 10vw;
+}
+
+img.ccc1 {
+    position: absolute;
+    left: 45vw;
+    top: 17vw;
+}
+
+img.ccc2 {
+    position: absolute;
+    right: 0;
+    top: 39vw;
+}
+
+img.dineImg4 {
+    width: 15vw;
+}
+
+.parentFT {
+    margin-top: 3em;
+    position: relative;
+}
+
+.promotion {
+    position: absolute;
+    top: 34px;
+    font-size: 4vw;
+}
+
+img.ccc5 {
+    margin-left: 10vw;
+}
+
+.datePromotion {
+    margin-top: 6vw;
+    color: #ffcb05;
+}
+
+img.promotion-h-img {
+    width: 38vw;
+}
+
+.parentImgPromotion {
+    text-align: center;
+    padding: 77px;
+}
+
+img.cardImgListPromotion {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.cardTitlePromotion {
+    font-size: 1em;
+    color: black;
+}
+
+
+.cardTypePromotion {
+    background: #ffc106;
+    text-align: right;
+    border-bottom-left-radius: 15px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.groupCardContentPromotion {
+    padding: 0.5em;
 }
