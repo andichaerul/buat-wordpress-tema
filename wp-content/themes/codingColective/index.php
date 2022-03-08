@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="dateCard">9 Feb 2022 - 01 Mar 2022</div>
                                 <div class="subTitlePromotion">Valentine’s Days Offers</div>
-                                <div class="descPromotion">20% OFF* Regular-priced items. 10% OFF* Nett-priced items.</div>
+                                <div class="descPromotion_">20% OFF* Regular-priced items. 10% OFF* Nett-priced items.</div>
                             </div>
                         </div>
                     </div>

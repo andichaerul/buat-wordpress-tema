@@ -253,7 +253,6 @@ img.imgList {
 footer {
     background-color: #ffc106;
     padding: 60px;
-    margin-top: 5vw;
 }
 
 .row.parentIconSosmed {
@@ -449,4 +448,23 @@ img.cardImgListPromotion {
 
 .groupCardContentPromotion {
     padding: 0.5em;
+}
+
+.dateCard {
+    color: gray;
+    font-size: 0.7em;
+}
+
+.subTitlePromotion {
+    font-size: 1.2em;
+    color: #ffc106;
+}
+
+.descPromotion_ {
+    color: black;
+    font-size: 0.8em;
+}
+
+footer {
+    margin-top: 5vw;
 }
