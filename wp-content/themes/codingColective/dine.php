@@ -9,7 +9,7 @@
                 <h1 class="dine-title">A happy tummy<br>starts here</h1>
             </div>
         </div>
-        <div class="col-md-6 position-relative">
+        <div class="col-md-6 position-relative mt-5">
             <div class="text-center dine-img-1 position-absolute">
                 <img class="dine-img-vector img-fluid" src="http://localhost:8888/wordpress/images/dine/img1.png">
                 <p>Baker's Brew</p>
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <div class="row mb-5">
+    <div class="row mb-5 mt-5">
         <div class="col-md-4">
             <input type="text" class="form-control dine-search" placeholder="Seach">
         </div>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-5 mb-5">
         <?php for ($i = 0; $i < 12; $i++) :   ?>
             <div class="col-md-3">
                 <div class="card mb-4 dine-list">

@@ -6,9 +6,9 @@
     <?php dynamic_sidebar('promotion-page') ?>
 <?php endif; ?>
 
-<div class="container">
+<div class="container mt-5">
     <div class="row mt-5">
-        <div class="col-md-6">
+        <div class="col-md-6 mt-5">
             <h1 class="mt-5 position-relative"><strong>Promotion</strong>
                 <img class="position-absolute" src="http://localhost:8888/wordpress/images/Vector.png" style="
                     left: 2em;
@@ -30,7 +30,7 @@
                 Congratulations to the winners of Chinese New Year 2022 Lucky Draw Winners! 1st Prize: Ogawa Genix, Hybrid Massage Chair worth $3,980 Kevin Fang XXXX3410 2nd Prize: Ogawa Estilo Prime X + OMG, Neck, Back and Foot Massager bundle worth $1,596 Doreen Seah XXXX4779 3rd Prize: Ogawa Omknee 2 (World’s First Detachable Foot & Knee Massager) worth…
             </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-5">
             <div class="promotion-img-feature">
                 <?php the_post_thumbnail(); ?>
             </div>
@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
         <?php for ($i = 0; $i < 12; $i++) :   ?>
             <div class="col-md-4">
                 <a href="http://localhost:8888/wordpress/promotion/hello-pos/">
