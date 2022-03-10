@@ -6,11 +6,40 @@
 }
 
 .navbar {
-    background: #ffcb05;
+    background: #ffcb05 !important;
 }
 
 body {
     background: #005BAA;
     color: white;
     font-family: 'Lato', sans-serif;
+}
+
+nav.navbar.navbar-expand-sm {
+    background-color: var(--background-color-yellow);
+    height: 79px;
+}
+
+li.nav-item {
+    margin-right: 1rem;
+}
+
+a.nav-link {
+    color: var(--text-color-1);
+    font-size: 18px;
+}
+
+nav.navbar.navbar-expand-sm {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.menu-item>a {
+    color: white;
+    text-decoration: solid;
+    font-size: 1.4em;
 }

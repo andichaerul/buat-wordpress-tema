@@ -14,6 +14,8 @@ get_header(); ?>
 
 <?php while (have_posts()) : ?>
 	<?php the_post(); ?>
+	<br>
+	<br>
 	<div class="img-fluid single-img-feature mt-5">
 		<?php the_post_thumbnail(); ?>
 	</div>

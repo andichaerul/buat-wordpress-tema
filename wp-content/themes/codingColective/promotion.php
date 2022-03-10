@@ -49,6 +49,7 @@
     <div class="row">
         <?php for ($i = 0; $i < 12; $i++) :   ?>
             <div class="col-md-4">
+                <a href="http://localhost:8888/wordpress/promotion/hello-pos/">
                 <div class="card mb-4 promotion-list">
                     <img class="card-img-top position-relative" src="http://localhost:8888/wordpress/images/imgList1.png" alt="Card image cap">
                     <p class="promotion-list-label">Shop</p>
@@ -61,6 +62,7 @@
                         <p class="promotion-tag">#<?php echo $i ?></p>
                     </div>
                 </div>
+                </a>
             </div>
         <?php endfor; ?>
     </div>
