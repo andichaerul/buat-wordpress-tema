@@ -51,6 +51,63 @@ nav.navbar.navbar-expand-sm {
 /* CSS MOBILE */
 @media (max-width: 767.98px) {
     .menu-navbar-container {
+        display: none !important;
+    }
+
+    img.vector1 {
+        display: none !important;
+    }
+
+    img.cc321 {
+        display: none !important;
+    }
+
+    img.img3 {
+        top: 18em !important;
+    }
+
+    img.img2 {
+        top: 12em !important;
+    }
+
+    img.ccc {
+        display: none !important;
+    }
+
+    img.group2 {
+        top: 20em !important;
+    }
+
+    img.explore {
+        top: 16em !important;
+    }
+
+    button.footer-btn-subcribe {
+        right: 0em !important;
+        left: unset !important;
+    }
+
+    .dine-img-1 {
         display: none;
+    }
+
+    .dine-img-2 {
+        display: none;
+    }
+
+    .dine-img-3 {
+        display: none;
+    }
+
+    .dine-img-4 {
+        display: none;
+    }
+
+    .dine-parent-img {
+        display: none;
+    }
+
+    .dine-head-container {
+        height: 20em !important;
     }
 }

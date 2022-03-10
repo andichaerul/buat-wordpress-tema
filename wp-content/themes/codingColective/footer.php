@@ -6,32 +6,42 @@
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-md-2">
+            <div class="col-md-2 mb-3">
                 <h5>Happenings</h5>
-                <a class="footer-menu" href="#">Promotion</a>
+                <div class="row">
+                    <a class="footer-menu" href="#">Promotion</a>
+                </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 mb-3">
                 <h5>Services</h5>
-                <a class="footer-menu" href="#">Customer Services Counter</a>
-                <a class="footer-menu" href="#">Store Directory</a>
-                <a class="footer-menu" href="#">Gift Voucher</a>
+                <div class="row">
+                    <a class="footer-menu" href="#">Customer Services Counter</a>
+                    <a class="footer-menu" href="#">Store Directory</a>
+                    <a class="footer-menu" href="#">Gift Voucher</a>
+                </div>
+
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 mb-3">
                 <h5>About Us</h5>
-                <a class="footer-menu" href="#">Great Reward</a>
-                <a class="footer-menu" href="#">Parking</a>
-                <a class="footer-menu" href="#">Getting Here</a>
-                <a class="footer-menu" href="#">Lease Enquiry</a>
-                <a class="footer-menu" href="#">Careers</a>
-                <a class="footer-menu" href="#">Allgreen Properties Limited</a>
-                <a class="footer-menu" href="#">Privacy Policy</a>
+                <div class="row">
+                    <a class="footer-menu" href="#">Great Reward</a>
+                    <a class="footer-menu" href="#">Parking</a>
+                    <a class="footer-menu" href="#">Getting Here</a>
+                    <a class="footer-menu" href="#">Lease Enquiry</a>
+                    <a class="footer-menu" href="#">Careers</a>
+                    <a class="footer-menu" href="#">Allgreen Properties Limited</a>
+                    <a class="footer-menu" href="#">Privacy Policy</a>
+                </div>
+
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
                 <h5>Contact</h5>
-                <p class="footer-menu">1 Kim Seng Promenade,Singapore 237994</p>
-                <p class="footer-menu">Open Daily:<br>
-                    10am – 10pm
-                </p>
+                <div class="row">
+                    <p class="footer-menu">1 Kim Seng Promenade,Singapore 237994</p>
+                    <p class="footer-menu">Open Daily:<br>
+                        10am – 10pm
+                    </p>
+                </div>
             </div>
             <div class="col-md-3">
                 <h5>Stay Connected</h5>
@@ -41,13 +51,13 @@
                     <button class="footer-btn-subcribe" type="submit">Subscribe</button>
                 </form>
                 <div class="row mt-3">
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-2">
                         <img src="<?php echo site_url() ?>/images/icon-sosmed/facebook.png">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-2">
                         <img src="<?php echo site_url() ?>/images/icon-sosmed/instagram.png">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-2">
                         <img src="<?php echo site_url() ?>/images/icon-sosmed/web.png">
                     </div>
                 </div>

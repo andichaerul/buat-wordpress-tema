@@ -4,12 +4,12 @@
 <div class="container">
     <div class="row dine-head-container mt-5">
         <div class="col-md-6">
-            <div class="dine-head-left-content position-relative">
+            <div class="dine-head-left-content position-relative dine-parent-left">
                 <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/Vector.png" style="width: 13em;">
                 <h1 class="dine-title">A happy tummy<br>starts here</h1>
             </div>
         </div>
-        <div class="col-md-6 position-relative mt-5">
+        <div class="col-md-6 position-relative mt-5 dine-parent-img">
             <div class="text-center dine-img-1 position-absolute">
                 <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/dine/img1.png">
                 <p>Baker's Brew</p>
@@ -30,15 +30,15 @@
     </div>
     <div class="row mb-5 mt-5">
         <div class="col-md-4">
-            <input type="text" class="form-control dine-search" placeholder="Seach">
+            <input type="text" class="form-control dine-search mb-2" placeholder="Seach">
         </div>
         <div class="col-md-4">
-            <select class="form-control dine-select-category">
+            <select class="form-control dine-select-category mb-2">
                 <option disable>Select Category</option>
             </select>
         </div>
         <div class="col-md-4">
-            <select class="form-control dine-select-level">
+            <select class="form-control dine-select-level mb-2">
                 <option disable>Select a Level</option>
             </select>
         </div>
