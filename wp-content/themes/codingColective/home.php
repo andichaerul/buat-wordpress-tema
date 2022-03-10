@@ -1,25 +1,35 @@
 <?php /* Template Name: Home Page */ ?>
 <?php get_header() ?>
-<img class="ccc" src="http://localhost:8888/wordpress/images/ccc.svg" />
-<img class="img1" src="http://localhost:8888/wordpress/images/img1.png" />
-<img class="img2" src="http://localhost:8888/wordpress/images/img2.png" />
-<img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
-<img class="group2" src="http://localhost:8888/wordpress/images/group2.svg" />
-<div class="cc112">
-    <div class="cc52">Singapore's Leading</div>
-    <div class="cc231">Consumer Electronics,</div>
-    <div> IT & Furniture Store</div>
-</div>
-<img class="explore" src="http://localhost:8888/wordpress/images/explore-more.svg">
-<img class="cc321" src="http://localhost:8888/wordpress/images/321.svg" />
-<img class="vector1" src="http://localhost:8888/wordpress/images/vector1.svg" />
+
+<body>
+    <img class="ccc" src="http://localhost:8888/wordpress/images/ccc.svg" />
+    <img class="img1" src="http://localhost:8888/wordpress/images/img1.png" />
+    <img class="img2" src="http://localhost:8888/wordpress/images/img2.png" />
+    <img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
+    <img class="group2" src="http://localhost:8888/wordpress/images/group2.svg" />
+    <div class="cc112">
+        <div class="cc52">Singapore's Leading</div>
+        <div class="cc231">Consumer Electronics,</div>
+        <div> IT & Furniture Store</div>
+    </div>
+    <img class="explore" src="http://localhost:8888/wordpress/images/explore-more.svg">
+    <img class="cc321" src="http://localhost:8888/wordpress/images/321.svg" />
+    <img class="vector1" src="http://localhost:8888/wordpress/images/vector1.svg" />
+</body>
+
 <div class="ourTenant">Our Tenant</div>
 <div class="ourTenantdesc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </div>
+<?php get_footer() ?>
 <script>
     $(document).ready(function() {
+        $('footer').hide();
         $('.ourTenant').hide();
         $('.ourTenantdesc').hide();
         $('.explore').click(function(e) {
+            $('footer').show();
+            $('footer').css({
+                'margin-top': '60em'
+            });
             e.preventDefault();
             $(".group2").animate({
                 top: '8vw',
