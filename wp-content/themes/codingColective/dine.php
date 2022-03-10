@@ -5,25 +5,25 @@
     <div class="row dine-head-container mt-5">
         <div class="col-md-6">
             <div class="dine-head-left-content position-relative">
-                <img class="dine-img-vector img-fluid" src="http://localhost:8888/wordpress/images/Vector.png" style="width: 13em;">
+                <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/Vector.png" style="width: 13em;">
                 <h1 class="dine-title">A happy tummy<br>starts here</h1>
             </div>
         </div>
         <div class="col-md-6 position-relative mt-5">
             <div class="text-center dine-img-1 position-absolute">
-                <img class="dine-img-vector img-fluid" src="http://localhost:8888/wordpress/images/dine/img1.png">
+                <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/dine/img1.png">
                 <p>Baker's Brew</p>
             </div>
             <div class="text-center dine-img-2 position-absolute">
-                <img class="dine-img-vector img-fluid" src="http://localhost:8888/wordpress/images/dine/img2.png">
+                <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/dine/img2.png">
                 <p>Henri Charpentier</p>
             </div>
             <div class="text-center dine-img-3 position-absolute">
-                <img class="dine-img-vector img-fluid" src="http://localhost:8888/wordpress/images/dine/img3.png">
+                <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/dine/img3.png">
                 <p>Awfully Chocolate Café</p>
             </div>
             <div class="text-center dine-img-4 position-absolute">
-                <img class="dine-img-vector img-fluid" src="http://localhost:8888/wordpress/images/dine/img4.png">
+                <img class="dine-img-vector img-fluid" src="<?php echo site_url() ?>/images/dine/img4.png">
                 <p>The Dark Gallery</p>
             </div>
         </div>
@@ -48,7 +48,7 @@
         <?php for ($i = 0; $i < 12; $i++) :   ?>
             <div class="col-md-3">
                 <div class="card mb-4 dine-list">
-                    <img class="card-img-top position-relative" src="http://localhost:8888/wordpress/images/imgList1.png" alt="Card image cap">
+                    <img class="card-img-top position-relative" src="<?php echo site_url() ?>/images/imgList1.png" alt="Card image cap">
                     <div class="card-body p-2">
                         <div class="row">
                             <div class="col-md-6">

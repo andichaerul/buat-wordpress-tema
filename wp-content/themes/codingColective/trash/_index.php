@@ -15,7 +15,7 @@
                         <a class="nav-link" href="#">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8888/wordpress/dine">DINE</a>
+                        <a class="nav-link" href="<?php echo site_url() ?>/dine">DINE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">HAPPENINGS</a>
@@ -35,19 +35,19 @@
     <!-- HOME -->
     <?php if (str_contains($_SERVER['REQUEST_URI'], 'home')) : ?>
 
-        <img class="ccc" src="http://localhost:8888/wordpress/images/ccc.svg" />
-        <img class="img1" src="http://localhost:8888/wordpress/images/img1.png" />
-        <img class="img2" src="http://localhost:8888/wordpress/images/img2.png" />
-        <img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
-        <img class="group2" src="http://localhost:8888/wordpress/images/group2.svg" />
+        <img class="ccc" src="<?php echo site_url() ?>/images/ccc.svg" />
+        <img class="img1" src="<?php echo site_url() ?>/images/img1.png" />
+        <img class="img2" src="<?php echo site_url() ?>/images/img2.png" />
+        <img class="img3" src="<?php echo site_url() ?>/images/img3.png" />
+        <img class="group2" src="<?php echo site_url() ?>/images/group2.svg" />
         <div class="cc112">
             <div class="cc52">Singapore's Leading</div>
             <div class="cc231">Consumer Electronics,</div>
             <div> IT & Furniture Store</div>
         </div>
-        <img class="explore" src="http://localhost:8888/wordpress/images/explore-more.svg">
-        <img class="cc321" src="http://localhost:8888/wordpress/images/321.svg" />
-        <img class="vector1" src="http://localhost:8888/wordpress/images/vector1.svg" />
+        <img class="explore" src="<?php echo site_url() ?>/images/explore-more.svg">
+        <img class="cc321" src="<?php echo site_url() ?>/images/321.svg" />
+        <img class="vector1" src="<?php echo site_url() ?>/images/vector1.svg" />
         <div class="ourTenant">Our Tenant</div>
         <div class="ourTenantdesc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </div>
     <?php endif; ?>
@@ -56,32 +56,32 @@
     <!-- DINE -->
     <?php if (str_contains($_SERVER['REQUEST_URI'], 'dine')) : ?>
         <br><br><br><br>
-        <img class="ccc1" src="http://localhost:8888/wordpress/images/ccc1.png" />
-        <img class="ccc2" src="http://localhost:8888/wordpress/images/ccc2.png" />
+        <img class="ccc1" src="<?php echo site_url() ?>/images/ccc1.png" />
+        <img class="ccc2" src="<?php echo site_url() ?>/images/ccc2.png" />
         <div class="container">
             <div class="row cc609023808">
                 <div class="col-md-6 parentHappyTummy position-relative">
-                    <img class="imgHappyTummy" src="http://localhost:8888/wordpress/images/vector2.svg" />
+                    <img class="imgHappyTummy" src="<?php echo site_url() ?>/images/vector2.svg" />
                     <div class="happyTummy">A happy tummy<br> starts here</div>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6 parentDineImg1">
-                            <img class="dineImg1" src="http://localhost:8888/wordpress/images/dineImg1.png" /><br>
+                            <img class="dineImg1" src="<?php echo site_url() ?>/images/dineImg1.png" /><br>
                             Baker’s Brew
                         </div>
                         <div class="col-md-6 parentDineImg2">
-                            <img class="dineImg2" src="http://localhost:8888/wordpress/images/dineImg2.png" /><br>
+                            <img class="dineImg2" src="<?php echo site_url() ?>/images/dineImg2.png" /><br>
                             Henri Charpentier
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 parentDineImg3">
-                            <img class="dineImg3" src="http://localhost:8888/wordpress/images/dineImg3.png" /><br>
+                            <img class="dineImg3" src="<?php echo site_url() ?>/images/dineImg3.png" /><br>
                             Awfully Chocolate Café
                         </div>
                         <div class="col-md-6 parentDineImg4">
-                            <img class="dineImg4" src="http://localhost:8888/wordpress/images/dineImg4.png" /><br>
+                            <img class="dineImg4" src="<?php echo site_url() ?>/images/dineImg4.png" /><br>
                             The Dark Gallery
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <img class="imgList" src="http://localhost:8888/wordpress/images/imgList1.png" />
+                                    <img class="imgList" src="<?php echo site_url() ?>/images/imgList1.png" />
                                 </div>
                             </div>
                             <div class="row listText">
@@ -140,7 +140,7 @@
                 <div class="col-md-6">
                     <div class="parentFT">
                         <div class="promotion">Promotion</div>
-                        <img class="ccc5" src="http://localhost:8888/wordpress/images/ccc5.svg" />
+                        <img class="ccc5" src="<?php echo site_url() ?>/images/ccc5.svg" />
                     </div>
                     <div class="datePromotion">
                         25 Feb 2022 - 06 Mar 2022
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 parentImgPromotion">
-                    <img class="promotion-h-img" src="http://localhost:8888/wordpress/images/promotion-h-img.png" />
+                    <img class="promotion-h-img" src="<?php echo site_url() ?>/images/promotion-h-img.png" />
                 </div>
             </div>
 
@@ -163,7 +163,7 @@
                 <?php for ($i = 0; $i < 3; $i++) : ?>
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="cardImgListPromotion" src="http://localhost:8888/wordpress/images/imgList1.png" />
+                            <img class="cardImgListPromotion" src="<?php echo site_url() ?>/images/imgList1.png" />
                             <div class="groupCardContentPromotion">
                                 <div class="row">
                                     <div class="col-md-8 cardTitlePromotion">ONLY LUXURY COLLECTION</div>
@@ -236,13 +236,13 @@
                 <div class="footerListMenu_">
                     <div class="row parentIconSosmed">
                         <div class="col">
-                            <img class="iconSosmed" src="http://localhost:8888/wordpress/images/icon-sosmed/Frame.png" />
+                            <img class="iconSosmed" src="<?php echo site_url() ?>/images/icon-sosmed/Frame.png" />
                         </div>
                         <div class="col">
-                            <img class="iconSosmed" src="http://localhost:8888/wordpress/images/icon-sosmed/Frame-1.png" />
+                            <img class="iconSosmed" src="<?php echo site_url() ?>/images/icon-sosmed/Frame-1.png" />
                         </div>
                         <div class="col">
-                            <img class="iconSosmed" src="http://localhost:8888/wordpress/images/icon-sosmed/Frame-2.png" />
+                            <img class="iconSosmed" src="<?php echo site_url() ?>/images/icon-sosmed/Frame-2.png" />
                         </div>
                     </div>
                 </div>

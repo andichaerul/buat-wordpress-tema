@@ -2,19 +2,19 @@
 <?php get_header() ?>
 
 <body>
-    <img class="ccc" src="http://localhost:8888/wordpress/images/ccc.svg" />
-    <img class="img1" src="http://localhost:8888/wordpress/images/img1.png" />
-    <img class="img2" src="http://localhost:8888/wordpress/images/img2.png" />
-    <img class="img3" src="http://localhost:8888/wordpress/images/img3.png" />
-    <img class="group2" src="http://localhost:8888/wordpress/images/group2.svg" />
+    <img class="ccc" src="<?php echo site_url() ?>/images/ccc.svg" />
+    <img class="img1" src="<?php echo site_url() ?>/images/img1.png" />
+    <img class="img2" src="<?php echo site_url() ?>/images/img2.png" />
+    <img class="img3" src="<?php echo site_url() ?>/images/img3.png" />
+    <img class="group2" src="<?php echo site_url() ?>/images/group2.svg" />
     <div class="cc112">
         <div class="cc52">Singapore's Leading</div>
         <div class="cc231">Consumer Electronics,</div>
         <div> IT & Furniture Store</div>
     </div>
-    <img class="explore" src="http://localhost:8888/wordpress/images/explore-more.svg">
-    <img class="cc321" src="http://localhost:8888/wordpress/images/321.svg" />
-    <img class="vector1" src="http://localhost:8888/wordpress/images/vector1.svg" />
+    <img class="explore" src="<?php echo site_url() ?>/images/explore-more.svg">
+    <img class="cc321" src="<?php echo site_url() ?>/images/321.svg" />
+    <img class="vector1" src="<?php echo site_url() ?>/images/vector1.svg" />
 </body>
 
 <div class="ourTenant">Our Tenant</div>

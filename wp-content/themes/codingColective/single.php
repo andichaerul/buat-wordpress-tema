@@ -28,7 +28,7 @@ get_header(); ?>
 			<?php for ($i = 0; $i < 3; $i++) :   ?>
 				<div class="col-md-4">
 					<div class="card mb-4 promotion-list">
-						<img class="card-img-top position-relative" src="http://localhost:8888/wordpress/images/imgList1.png" alt="Card image cap">
+						<img class="card-img-top position-relative" src="<?php echo site_url() ?>/images/imgList1.png" alt="Card image cap">
 						<p class="promotion-list-label">Shop</p>
 						</img>
 						<div class="card-body position-relative">

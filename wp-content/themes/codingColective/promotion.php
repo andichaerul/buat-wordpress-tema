@@ -10,7 +10,7 @@
     <div class="row mt-5">
         <div class="col-md-6 mt-5">
             <h1 class="mt-5 position-relative"><strong>Promotion</strong>
-                <img class="position-absolute" src="http://localhost:8888/wordpress/images/Vector.png" style="
+                <img class="position-absolute" src="<?php echo site_url() ?>/images/Vector.png" style="
                     left: 2em;
                     top: -1.2em;
                     z-index: -1;">
@@ -49,9 +49,9 @@
     <div class="row mb-5">
         <?php for ($i = 0; $i < 12; $i++) :   ?>
             <div class="col-md-4">
-                <a href="http://localhost:8888/wordpress/promotion/hello-pos/">
+                <a href="<?php echo site_url() ?>/promotion/hello-pos/">
                 <div class="card mb-4 promotion-list">
-                    <img class="card-img-top position-relative" src="http://localhost:8888/wordpress/images/imgList1.png" alt="Card image cap">
+                    <img class="card-img-top position-relative" src="<?php echo site_url() ?>/images/imgList1.png" alt="Card image cap">
                     <p class="promotion-list-label">Shop</p>
                     </img>
                     <div class="card-body position-relative">

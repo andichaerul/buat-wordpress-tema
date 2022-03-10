@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="http://localhost:8888/wordpress/images/logo.png">
+                <img src="<?php echo site_url() ?>/images/logo.png">
             </div>
         </div>
         <div class="row mt-3">
@@ -42,13 +42,13 @@
                 </form>
                 <div class="row mt-3">
                     <div class="col-md-2">
-                        <img src="http://localhost:8888/wordpress/images/icon-sosmed/facebook.png">
+                        <img src="<?php echo site_url() ?>/images/icon-sosmed/facebook.png">
                     </div>
                     <div class="col-md-2">
-                        <img src="http://localhost:8888/wordpress/images/icon-sosmed/instagram.png">
+                        <img src="<?php echo site_url() ?>/images/icon-sosmed/instagram.png">
                     </div>
                     <div class="col-md-2">
-                        <img src="http://localhost:8888/wordpress/images/icon-sosmed/web.png">
+                        <img src="<?php echo site_url() ?>/images/icon-sosmed/web.png">
                     </div>
                 </div>
 
