@@ -792,3 +792,33 @@ Stack trace:
 [10-Mar-2022 01:31:03 UTC] PHP Notice:  Undefined variable: i in /Users/andichaerul/www/wordpress/wp-content/themes/codingColective/dine.php on line 54
 [10-Mar-2022 01:31:03 UTC] PHP Notice:  Undefined variable: i in /Users/andichaerul/www/wordpress/wp-content/themes/codingColective/dine.php on line 58
 [10-Mar-2022 01:45:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/andichaerul/www/wordpress/wp-content/themes/codingColective/single.php on line 52
+[15-Mar-2022 07:20:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:20:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/andichaerul/www/wordpress/wp-admin/includes/translation-install.php on line 68
+[15-Mar-2022 07:20:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:20:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:20:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:21:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:21:33 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:24:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:24:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:24:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:05 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:47 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:48 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:25:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:26:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:26:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:26:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:26:56 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:28:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:28:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:28:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:28:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:29:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:30:06 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Mar-2022 07:30:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
